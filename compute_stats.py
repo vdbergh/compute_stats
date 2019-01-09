@@ -218,7 +218,6 @@ class compute:
         try:
             self.stats['correlation']=self.stats['covariance']/(self.stats['variance_white']*self.stats['variance_black'])**.5
         except ZeroDivisionError:
-            del self.stats['covariance']
             return
     # t-transformation
         if self.stats['N2']>=2:
