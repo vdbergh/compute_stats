@@ -37,4 +37,4 @@ p_correlation=7.030820370346191e-12
 variance_pentanomial=0.07009706490510403
 variance_ratio=0.8685319251996577
 ```
-Some precomputed `.stats` files are in the `results` directory. They correspond to tests on the fishtest framework. The actual pgn files can be found at https://drive.google.com/drive/folders/1fR2gmzKpxjomb4GhyOLcNDFCodzSXq-O. Metadata about the corresponding tests can be found at http://tests.stockfishchess.org//api/get_run/ `<test-id>` where `<test-id>` is the name of the `.stats` file without the extension.
+Some precomputed `.stats` files are in the `results` directory. They correspond to tests on the fishtest framework. The actual pgn files can be found at https://drive.google.com/drive/folders/1fR2gmzKpxjomb4GhyOLcNDFCodzSXq-O. Metadata about the corresponding tests can be found at http://tests.stockfishchess.org/tests/view/ `<test-id>` and http://tests.stockfishchess.org/api/get_run/ `<test-id>` where `<test-id>` is the name of the `.stats` file without the extension.
